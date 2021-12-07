@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+#content {
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    background: white;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-bottom: 0.15rem solid black;
+
+    h1 {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        li {
+            display: block;
+            transition-duration: 0.5s;
+            padding: 1rem;
+            position: relative;
+            cursor: pointer;
+
+            &:hover,
+            &:focus-within {
+                background: rgb(252, 201, 185);
+            }
+
+            ul {
+                background: white;
+                border: 0.15rem solid black;
+                visibility: hidden;
+                opacity: 0;
+                min-width: 5rem;
+                margin-top: 1rem;
+                display: none;
+                position: absolute;
+                transition: all 0.5s ease;
+                left: 0;
+
+                &:focus,
+                &:hover {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                li {
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+}
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.main-page {
+    background: url(../images/cat_anim.gif) no-repeat center center;
+    filter: grayscale(100%);
+    background-position: right 43% bottom 55%;
+    background-size: 40%;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    z-index: -1;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+}
+
+.ramen {
+    @extend.main-page;
+    background: url(../images/ramen.webp) no-repeat center center;
+}
+
+.bento {
+    @extend.main-page;
+    background: url(../images/bento.webp) no-repeat center center;
+}
+
+.chosoku {
+    @extend.main-page;
+    background: url(../images/chosoku.webp) no-repeat center center;
+}
+
+.team {
+    @extend.main-page;
+    line-height: 10vh;
+
+    h2 {
+        font-size: 4rem;
+    }
+
+
+    p {
+        font-size: 3rem;
+    }
+}
+
+.about {
+    @extend.main-page;
+    @extend.team;
+
+    p {
+        font-size: 2rem;
+        text-shadow:
+            -1.5px -1.5px 0 #000,
+            1.5px -1.5px 0 #000,
+            -1.5px 1.5px 0 #000,
+            1.5px 1.5px 0 #000;
+    }
+
+}
