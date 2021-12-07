@@ -1,3 +1,3 @@
 # Japanese Restaurant
 
-A demonstration of the use of Webpack.
+A website for a Japanese restaurant.
