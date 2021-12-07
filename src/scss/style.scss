@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
-    color: rgb(60, 64, 67);
 }
 
 nav {
@@ -19,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    border-bottom: 0.15rem solid rgb(60, 64, 67);
+    border-bottom: 0.15rem solid black;
 
     h1 {
         cursor: pointer;
@@ -27,7 +26,7 @@ nav {
 
     a {
         text-decoration: none;
-        color: rgb(60, 64, 67);
+        color: black;
     }
 
     ul {
@@ -49,7 +48,7 @@ nav {
 
             ul {
                 background: white;
-                border: 0.15rem solid rgb(60, 64, 67);
+                border: 0.15rem solid black;
                 visibility: hidden;
                 opacity: 0;
                 min-width: 5rem;
@@ -97,10 +96,10 @@ ul li ul:focus {
     font-size: 3rem;
     font-weight: 900;
     text-shadow:
-        -2px -2px 0 rgb(60, 64, 67),
-        2px -2px 0 rgb(60, 64, 67),
-        -2px 2px 0 rgb(60, 64, 67),
-        2px 2px 0 rgb(60, 64, 67);
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
     color: white;
     text-align: center;
     line-height: 100vh;
@@ -142,10 +141,9 @@ ul li ul:focus {
     p {
         font-size: 2rem;
         text-shadow:
-            -1.5px -1.5px 0 rgb(60, 64, 67),
-            1.5px -1.5px 0 rgb(60, 64, 67),
-            -1.5px 1.5px 0 rgb(60, 64, 67),
-            1.5px 1.5px 0 rgb(60, 64, 67);
+            -1.5px -1.5px 0 black,
+            1.5px -1.5px 0 black,
+            -1.5px 1.5px 0 black,
+            1.5px 1.5px 0 black;
     }
-
 }
