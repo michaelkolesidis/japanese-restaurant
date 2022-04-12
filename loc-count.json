@@ -1,66 +1,66 @@
 [
- {
-  "language": "JavaScript",
-  "files": 10,
-  "lines": 527,
-  "blanks": 83,
-  "comments": 136,
-  "linesOfCode": 308
- },
- {
-  "language": "HTML",
-  "files": 2,
-  "lines": 30,
-  "blanks": 6,
-  "comments": 0,
-  "linesOfCode": 24
- },
- {
-  "language": "JSON",
-  "files": 2,
-  "lines": 6760,
-  "blanks": 0,
-  "comments": 0,
-  "linesOfCode": 6760
- },
- {
-  "language": "License",
-  "files": 1,
-  "lines": 674,
-  "blanks": 121,
-  "comments": 0,
-  "linesOfCode": 553
- },
- {
-  "language": "Markdown",
-  "files": 1,
-  "lines": 20,
-  "blanks": 4,
-  "comments": 0,
-  "linesOfCode": 16
- },
- {
-  "language": "Sass",
-  "files": 1,
-  "lines": 149,
-  "blanks": 24,
-  "comments": 0,
-  "linesOfCode": 125
- },
- {
-  "language": "gitignore",
-  "files": 1,
-  "lines": 2,
-  "blanks": 0,
-  "comments": 0,
-  "linesOfCode": 2
- },
- {
-  "language": "Total",
-  "files": 18,
-  "lines": 8162,
-  "blanks": 238,
-  "comments": 136,
-  "linesOfCode": 7788
- }
+{
+"language": "JavaScript",
+"files": 10,
+"lines": 527,
+"blanks": 83,
+"comments": 136,
+"linesOfCode": 308
+},
+{
+"language": "JSON",
+"files": 3,
+"lines": 6826,
+"blanks": 0,
+"comments": 0,
+"linesOfCode": 6826
+},
+{
+"language": "HTML",
+"files": 2,
+"lines": 30,
+"blanks": 6,
+"comments": 0,
+"linesOfCode": 24
+},
+{
+"language": "License",
+"files": 1,
+"lines": 674,
+"blanks": 121,
+"comments": 0,
+"linesOfCode": 553
+},
+{
+"language": "Markdown",
+"files": 1,
+"lines": 20,
+"blanks": 4,
+"comments": 0,
+"linesOfCode": 16
+},
+{
+"language": "Sass",
+"files": 1,
+"lines": 149,
+"blanks": 24,
+"comments": 0,
+"linesOfCode": 125
+},
+{
+"language": "gitignore",
+"files": 1,
+"lines": 2,
+"blanks": 0,
+"comments": 0,
+"linesOfCode": 2
+},
+{
+"language": "Total",
+"files": 19,
+"lines": 8228,
+"blanks": 238,
+"comments": 136,
+"linesOfCode": 7854
+}
 ]
