@@ -28,6 +28,11 @@ A JavaScript single-page application (SPA) showcasing the use of ES6 modules.
 
 
 
+## Screenshot
+<img src="japanese-restaurant-screenshot.png" />
+
+
+
 ## License
 
 Copyright (c) 2022 Michael Kolesidis<br>
