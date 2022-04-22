@@ -11,7 +11,7 @@
 
 <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/javascript/javascript-original.svg" height="50px" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://en.wikipedia.org/wiki/CSS"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/css3/css3-plain.svg" height="50px" /></a>
+<a href="https://sass-lang.com/"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/sass/sass-original.svg" height="50px" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/html5/html5-plain.svg" height="50px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
