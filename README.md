@@ -7,6 +7,8 @@
 
 </div>
 
+
+
 ## Technologies Used
 
 <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/javascript/javascript-original.svg" height="50px" /></a>
@@ -19,8 +21,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.npmjs.com/"><img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/npm/npm-original-wordmark.svg" height="50px" /></a>
 
+
+
 ## Description
 A JavaScript single-page application (SPA) showcasing the use of ES6 modules.
+
+
+
+## License
+
+Copyright (c) 2022 Michael Kolesidis<br>
+Licensed under the [GNU General Public License v3.0](https://github.com/michaelkolesidis/webproject-script/blob/main/LICENSE).
+
+
 
 [//]: # (Free Software)
 <div align="center">
