@@ -24,7 +24,7 @@
 
 
 ## Description
-A JavaScript single-page application (SPA) showcasing the use of ES6 modules.
+A JavaScript single-page application (SPA) showcasing the use of ES6 modules as well as Webpack.
 
 
 
