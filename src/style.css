@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+#content {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+  background: white;
+  font-size: 1.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  border-bottom: 0.15rem solid black;
+}
+nav h1 {
+  cursor: pointer;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+nav ul li {
+  display: block;
+  transition-duration: 0.5s;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+nav ul li:hover,
+nav ul li:focus-within {
+  background: rgb(252, 201, 185);
+}
+nav ul li ul {
+  background: white;
+  border: 0.15rem solid black;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  margin-top: 1rem;
+  display: none;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+}
+nav ul li ul:focus,
+nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+}
+nav ul li ul li {
+  width: 100%;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.main-page,
+.about,
+.team,
+.chosoku,
+.bento,
+.ramen {
+  background: url(./images/cat_anim.gif) no-repeat center center;
+  filter: grayscale(100%);
+  background-position: right 43% bottom 55%;
+  background-size: 40%;
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  z-index: -1;
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  color: white;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.ramen {
+  background: url(./images/ramen.webp) no-repeat center center;
+  background-size: cover;
+}
+
+.bento {
+  background: url(./images/bento.webp) no-repeat center center;
+  background-size: cover;
+}
+
+.chosoku {
+  background: url(./images/chosoku.webp) no-repeat center center;
+  background-size: cover;
+}
+
+.team,
+.about {
+  line-height: 10vh;
+}
+.team h2,
+.about h2 {
+  font-size: 4rem;
+}
+.team p,
+.about p {
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 2rem;
+  text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black;
+}

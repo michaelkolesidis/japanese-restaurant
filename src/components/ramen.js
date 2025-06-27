@@ -1,5 +1,5 @@
 export const Ramen = () => {
-    return `<div class="ramen">
+  return `<div class="ramen">
         <p>Our Ramen is delicious.</p>
-    </div>`
-}
+    </div>`;
+};

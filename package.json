@@ -1,22 +1,14 @@
 {
-  "name": "webpack-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "japanese-restaurant",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack build --mode production",
-    "dev": "webpack build --mode development --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.5.0",
-    "node-sass": "^6.0.1",
-    "sass-loader": "^12.3.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1"
+    "vite": "^7.0.0"
   }
 }

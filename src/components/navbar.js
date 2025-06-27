@@ -1,5 +1,5 @@
 export const Navbar = () => {
-    return `<nav role="navigation">
+  return `<nav role="navigation">
      <ul class="links">
          <li class="Team">Team</li>
          <li><a aria-haspopup="true" href="">A Taste</a>
@@ -17,5 +17,5 @@ export const Navbar = () => {
          <li><a href="#">Facebook</a></li>
          <li><a href="#">Twitter</a></li>
      </ul>
- </nav>`
-}
+ </nav>`;
+};
