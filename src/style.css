@@ -80,16 +80,18 @@ ul li ul:focus {
 .ramen {
   background: url(./images/cat_anim.gif) no-repeat center center;
   filter: grayscale(100%);
-  background-position: right 43% bottom 55%;
-  background-size: 40%;
+  background-position: right 48% bottom 55%;
+  background-size: 25%;
   position: fixed;
   min-height: 100%;
-  min-width: 100%;
   width: 100%;
   z-index: -1;
   font-size: 3rem;
   font-weight: 900;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+  text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
     2px 2px 0 black;
   color: white;
   text-align: center;
@@ -126,6 +128,9 @@ ul li ul:focus {
 
 .about p {
   font-size: 2rem;
-  text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black,
+  text-shadow:
+    -1.5px -1.5px 0 black,
+    1.5px -1.5px 0 black,
+    -1.5px 1.5px 0 black,
     1.5px 1.5px 0 black;
 }

@@ -7,10 +7,6 @@ import { Chosoku } from './components/chosoku';
 import { Team } from './components/team';
 import { About } from './components/about';
 
-// document.querySelector('#content').innerHTML = `
-//   <h1>TEST</h1>
-// `;
-
 const container = document.getElementById('content');
 const header = document.createElement('header');
 const view = document.createElement('div');
@@ -56,4 +52,3 @@ container.addEventListener('click', (e) => {
     view.innerHTML = main();
   }
 });
-
